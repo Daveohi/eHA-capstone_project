@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+list-style: none;
+font-size: 16px;
+margin-top: 25px;
+
+}
+
+/* NAVBAR STYLING STARTS */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(105, 113, 236);
+  color: #fff;
+}
+
+.nav-links a {
+  color: #fff;
+}
+
+/* LOGO */
+
+.logo {
+  font-size: 32px;
+}
+
+/* NAVBAR MENU */
+
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
+.menu li:hover {
+  background-color: #4c9e9e;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+
+div.container {
+  min-width: 1400px;
+  min-height: 600px;
+  background-image: url(https://images.unsplash.com/photo-1495344517868-8ebaf0a2044a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjE1fHxwZW9wbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+  text-align: center;
+  font-style: normal;
+  background: cover;
+  background-position: center;
+  padding-top: 300px;
+}
+
+#intro {
+  color: white;
+}
+
+#disp {
+  color: aqua;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-top: 10px;
+  border-right: 10px;
+  border-bottom: 10px;
+  margin: 50px 25px 50px 25px;
+}
+
+.white-frame {
+  border-bottom: 4px solid rgb(141, 212, 245);
+  border-right: 4px solid rgb(141, 212, 245);
+  border-top: 4px solid rgb(141, 212, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
