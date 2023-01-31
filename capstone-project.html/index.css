@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+list-style: none;
+font-size: 16px;
+padding-bottom: 100px;
+
+}
+
+/* NAVBAR STYLING STARTS */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  background-color: rgb(105, 113, 236);
+  color: #fff;
+
+
+}
+
+.nav-links a {
+  color: #fff;
+  
+
+}
+
+/* LOGO */
+
+.logo {
+  font-size: 32px;
+}
+
+/* NAVBAR MENU */
+
+.menu {
+  display: flex;
+  gap: 0.8em;
+  font-size: 18px;
+  padding-right: 20px;
+}
+
+.menu li {
+  padding: 5px;
+  margin-bottom: 35px;
+}
+
+div.section-title {
+  background-image: url(https://hope1032.com.au/wp-content/uploads/2019/06/True-Peace-Man-Alone-Night-Sky-benjamin-davies-301161-unsplash-1-e1600841422712.jpg);
+  text-align: center;
+  font-style: normal;
+  background-position: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+}
+
+#intro {
+  color: white;
+  
+}
+
+#disp {
+  color: aqua;
+}
+
+
+.white-frame {
+  width: 200px;
+  height: 150px;  
+  border-bottom: 8px solid rgb(123, 193, 226);
+  border-right: 8px solid rgb(123, 193, 226);
+  border-top: 8px solid rgb(123, 193, 226);
+  display: flex;
+  justify-content: center;
+  block-size: auto;
+  margin-left: 80px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  
+}
+
+h3 {
+  color: white;
+  background-color: rgb(88, 98, 238);
+  text-align: center;
+  padding: 70px;
+  font-size: x-large;
+}
+
+
+div.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(88, 98, 238);
+  padding-bottom: 150px;
+  
+}
+
+img {
+  margin: 10px;
+  width: 350px;
+  height: 250px;
+}
+
+div.container-fluid {
+  display: flex;
+  background-color: rgb(220, 243, 242);
+  gap: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#About{
+  object-position: top;
+  background-color: white;
+  text-align: left;
+  justify-content: center;
+  padding-top: 40px;
+  margin-top: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-bottom: 30px;
+  border: 100%;
+
+
+}
+
+p {
+  background-color: white;
+  padding-bottom: 30px;
+  padding-left: 0px;
+  padding-right: 40px;
+  margin-top: 10px;
+  text-align:justify;
+  font-weight: 100;
+  font-family: monospace;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+h5 {
+  font-family: Arial, Helvetica, sans-serif, verdana;
+  color: rgb(88, 98, 238);
+  font-size: xx-large;
+  
+  
+}
+
+h6 {
+  color: rgb(88, 98, 238);
+  font-weight: lighter;
+  font-size: medium;
+}
+
+ul {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
